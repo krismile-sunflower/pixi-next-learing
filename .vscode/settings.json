@@ -1,0 +1,15 @@
+{
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "terminal.integrated.charset": "utf-8",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.editor.customLabels.patterns": {
+    "**/views/**/index.tsx": "${dirname} - View",
+    "**/components/**/index.tsx": "${dirname} -Components",
+    "**/services/**": "${dirname} - Service",
+    "**/utils/**": "${filename} - Utils",
+    "**/hooks/**": "${filename} - Hooks"
+  },
+  "workbench.colorTheme": "Default Dark Modern"
+}
